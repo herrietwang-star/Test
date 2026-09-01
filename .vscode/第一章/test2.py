@@ -1,3 +1,8 @@
-#需要往中控台中输出Hello Word和Hello Python（#是python中注释的写法是的意思，注释不会被执行--快捷键：ctrl+/）
-print("hellow world")
-print("hello python")
+import random
+
+
+# 生成 30 个 1 到 100 之间的随机整数
+random_numbers = [random.randint(1, 100) for _ in range(30)]
+
+print("生成的 30 个随机数：")
+print(random_numbers)
